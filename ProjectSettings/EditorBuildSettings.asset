@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/irem.unity
+    guid: 52282473ecb3649469d99bd260c108a3
+  - enabled: 1
+    path: Assets/Scenes/Zeynep.unity
+    guid: 78131845e1de88f4d92d6d995c6c718f
+  - enabled: 1
+    path: Assets/Scenes/Room.unity
+    guid: 3bca4e3a9060daf43aebf3741522b2fa
   m_configObjects: {}
