@@ -9,7 +9,7 @@ public class UnitChangeScene : MonoBehaviour
     public string sceneName;
     void OnTriggerEnter(Collider other)
     {
-          SceneManager.LoadScene(sceneName);
-        
+        // SceneManager.LoadScene(sceneName);
+        SceneManager.LoadSceneAsync(sceneName);
     }
 }
