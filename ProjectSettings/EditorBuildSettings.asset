@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Zeynep.unity
     guid: 78131845e1de88f4d92d6d995c6c718f
   - enabled: 1
-    path: Assets/Scenes/Room.unity
-    guid: 3bca4e3a9060daf43aebf3741522b2fa
+    path: Assets/Scenes/ornek.unity
+    guid: fded09ac8aa6b2f4f8123166c5622421
   m_configObjects: {}

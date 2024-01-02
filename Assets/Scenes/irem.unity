@@ -3811,6 +3811,7 @@ GameObject:
   - component: {fileID: 541665504}
   - component: {fileID: 541665503}
   - component: {fileID: 541665502}
+  - component: {fileID: 541665505}
   m_Layer: 0
   m_Name: a (1)
   m_TagString: Untagged
@@ -3826,7 +3827,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541665500}
   m_LocalRotation: {x: -0, y: -0.7045728, z: -0, w: 0.70963174}
-  m_LocalPosition: {x: 579.685, y: 61.59, z: 558.152}
+  m_LocalPosition: {x: 579.685, y: 62.52, z: 558.152}
   m_LocalScale: {x: 0.26882234, y: 7.1112623, z: -2.228665}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3840,8 +3841,8 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541665500}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_Material: {fileID: 13400000, guid: dab00ed46f33eba4184c3fd326404510, type: 2}
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
@@ -3896,6 +3897,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541665500}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &541665505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541665500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848a68c3f8e5bda44b27b29890b54edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: ornek
 --- !u!1 &542648969
 GameObject:
   m_ObjectHideFlags: 0

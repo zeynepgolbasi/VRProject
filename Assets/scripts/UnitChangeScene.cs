@@ -9,9 +9,7 @@ public class UnitChangeScene : MonoBehaviour
     public string sceneName;
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) 
-        {
-            SceneManager.LoadScene(sceneName);
-        }
+          SceneManager.LoadScene(sceneName);
+        
     }
 }
