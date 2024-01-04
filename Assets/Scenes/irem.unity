@@ -7873,6 +7873,7 @@ GameObject:
   - component: {fileID: 696333200}
   - component: {fileID: 696333199}
   - component: {fileID: 696333198}
+  - component: {fileID: 696333210}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -8138,6 +8139,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &696333210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696333197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62df4bbc332d4b641b77e1fb5bca1415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpButton: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  moveAction: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  charController: {fileID: 696333204}
+  jumpHeight: 4
+  moveSpeed: 3
+  jumpButtonReleased: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -10174,14 +10193,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131922611}
-  m_LocalRotation: {x: -0.043236822, y: -0.70223564, z: -0.045102198, w: 0.70919776}
-  m_LocalPosition: {x: 47, y: -10.6, z: 12.6}
-  m_LocalScale: {x: 45.41364, y: 1.4900001, z: 42.030556}
+  m_LocalRotation: {x: -0.051760398, y: -0.7011058, z: -0.08283718, w: 0.7063353}
+  m_LocalPosition: {x: 39.23999, y: -9.48, z: 8.98999}
+  m_LocalScale: {x: 62.99632, y: 1.4900001, z: 48.15861}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1868532423}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: -7.162, y: -89.423, z: -0.188}
+  m_LocalEulerAnglesHint: {x: -10.911, y: -89.326, z: -2.594}
 --- !u!65 &1131922613
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10193,8 +10212,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.005429, y: 1.1142265, z: 0.83920455}
-  m_Center: {x: 0.016885184, y: 0.057195894, z: -0.082590304}
+  m_Size: {x: 0.99999994, y: 1.0000002, z: 1}
+  m_Center: {x: -0.0000009536743, y: -0.0000076293945, z: -0.0000009536743}
 --- !u!23 &1131922614
 MeshRenderer:
   m_ObjectHideFlags: 0
