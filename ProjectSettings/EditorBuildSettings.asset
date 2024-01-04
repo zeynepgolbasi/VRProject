@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ornek 1.unity
     guid: 6175377dda2c11f4d9c31cbe2a27c5be
+  - enabled: 1
+    path: Assets/Scenes/Adem.unity
+    guid: ae6143b64ce3fbb489218deedf7515f4
   m_configObjects: {}
