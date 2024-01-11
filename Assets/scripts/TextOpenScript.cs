@@ -6,15 +6,17 @@ using UnityEngine.UI;
 public class TextOpenScript : MonoBehaviour
 {
     public Text textToShow;
-
-    // Bu fonksiyon, butona basýldýðýnda çaðrýlýr.
     public void OpenText()
     {
         // Metin kutusunu görünür yap.
-        textToShow.gameObject.SetActive(true);
+        textToShow.gameObject.SetActive(!textToShow.gameObject.activeSelf);
 
-        // Metin kutusuna istediðiniz metni atayabilirsiniz.
-        textToShow.text = "Merhaba, dünya!";
+        // Eðer metin kutusu görünür deðilse metni kapat
+        if (!textToShow.gameObject.activeSelf)
+        {
+            textToShow.text = "";
+        }
+       
     }
 }
 
