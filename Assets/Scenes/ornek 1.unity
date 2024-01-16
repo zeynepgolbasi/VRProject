@@ -3740,7 +3740,7 @@ GameObject:
   - component: {fileID: 411925202}
   - component: {fileID: 411925201}
   - component: {fileID: 411925200}
-  - component: {fileID: 411925199}
+  - component: {fileID: 411925203}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3768,19 +3768,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.82, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &411925199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411925197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eaf8b05524474d479be53b746725e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: {fileID: 448552378}
 --- !u!114 &411925200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3825,13 +3812,97 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 411925199}
-        m_TargetAssemblyTypeName: TextOpenScript, Assembly-CSharp
-        m_MethodName: OpenText
-        m_Mode: 1
+      - m_Target: {fileID: 411925203}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1873602106}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 411925203}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 448552378}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 411925203}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1725101419}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 411925203}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2123558041}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 411925203}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 998905848}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 411925203}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 482644303}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 411925203}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1783216112}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 411925203}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: ShowText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 448552378}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3875,6 +3946,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 411925197}
   m_CullTransparentMesh: 1
+--- !u!114 &411925203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411925197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ce6872482d33d47ae8adde40501695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &439024931 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
@@ -3949,7 +4032,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &448552377
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3957,17 +4040,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448552376}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0.050000157}
-  m_LocalScale: {x: 0.04277997, y: 0.87097406, z: 1}
+  m_LocalScale: {x: 0.22126547, y: 0.8709741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1336761644}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.58, y: -7.9}
+  m_AnchoredPosition: {x: 7.5512924, y: 31.623184}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &448552378
@@ -4022,8 +4105,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 7
+  m_fontSizeBase: 7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4151,7 +4234,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &482644302
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4160,16 +4243,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482644301}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.049999934}
-  m_LocalScale: {x: 0.03898154, y: 0.87097406, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.4654885}
+  m_LocalScale: {x: 0.18246266, y: 0.8709742, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1130911154}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.8299998, y: -8.049999}
+  m_AnchoredPosition: {x: 1.9362183, y: 28.599518}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482644303
@@ -4230,8 +4313,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4266,7 +4349,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.69104767, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6914,7 +6997,7 @@ GameObject:
   - component: {fileID: 911403155}
   - component: {fileID: 911403154}
   - component: {fileID: 911403153}
-  - component: {fileID: 911403152}
+  - component: {fileID: 911403156}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6942,19 +7025,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2.14, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &911403152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911403150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eaf8b05524474d479be53b746725e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: {fileID: 1725101419}
 --- !u!114 &911403153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6999,13 +7069,97 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 911403152}
-        m_TargetAssemblyTypeName: TextOpenScript, Assembly-CSharp
-        m_MethodName: OpenText
-        m_Mode: 1
+      - m_Target: {fileID: 911403156}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1873602106}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 911403156}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 448552378}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 911403156}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1725101419}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 911403156}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2123558041}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 911403156}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 998905848}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 911403156}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 482644303}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 911403156}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1783216112}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 911403156}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: ShowText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1725101419}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7049,6 +7203,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911403150}
   m_CullTransparentMesh: 1
+--- !u!114 &911403156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911403150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ce6872482d33d47ae8adde40501695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &928357488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7482,7 +7648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &998905847
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7490,17 +7656,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998905846}
-  m_LocalRotation: {x: -0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0500005}
-  m_LocalScale: {x: 0.03898154, y: 0.87097406, z: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1.0610225}
+  m_LocalScale: {x: 0.1655725, y: 0.8709741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1036037608}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8700002, y: -7.9999995}
+  m_AnchoredPosition: {x: -0.6186404, y: 31.623251}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998905848
@@ -7557,8 +7723,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7681,7 +7847,7 @@ GameObject:
   - component: {fileID: 1014307893}
   - component: {fileID: 1014307892}
   - component: {fileID: 1014307891}
-  - component: {fileID: 1014307890}
+  - component: {fileID: 1014307894}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -7709,19 +7875,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.21, y: 0.1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1014307890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014307888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eaf8b05524474d479be53b746725e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: {fileID: 998905848}
 --- !u!114 &1014307891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7766,13 +7919,97 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1014307890}
-        m_TargetAssemblyTypeName: TextOpenScript, Assembly-CSharp
-        m_MethodName: OpenText
-        m_Mode: 1
+      - m_Target: {fileID: 1014307894}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1873602106}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1014307894}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 448552378}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1014307894}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1725101419}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1014307894}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2123558041}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1014307894}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 998905848}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1014307894}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 482644303}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1014307894}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1783216112}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1014307894}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: ShowText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 998905848}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7816,6 +8053,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014307888}
   m_CullTransparentMesh: 1
+--- !u!114 &1014307894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014307888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ce6872482d33d47ae8adde40501695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1014562962 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1628770746, guid: bcc59605049cf8a4995bf79279008c08, type: 3}
@@ -8117,7 +8366,7 @@ GameObject:
   - component: {fileID: 1021275471}
   - component: {fileID: 1021275470}
   - component: {fileID: 1021275469}
-  - component: {fileID: 1021275468}
+  - component: {fileID: 1021275472}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -8138,26 +8387,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1130911154}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1.37, y: -0.1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1021275468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021275466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eaf8b05524474d479be53b746725e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: {fileID: 482644303}
 --- !u!114 &1021275469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8202,13 +8438,97 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1021275468}
-        m_TargetAssemblyTypeName: TextOpenScript, Assembly-CSharp
-        m_MethodName: OpenText
-        m_Mode: 1
+      - m_Target: {fileID: 1021275472}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1873602106}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1021275472}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 448552378}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1021275472}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1725101419}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1021275472}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2123558041}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1021275472}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 998905848}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1021275472}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 482644303}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1021275472}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1783216112}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1021275472}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: ShowText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 482644303}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8252,6 +8572,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021275466}
   m_CullTransparentMesh: 1
+--- !u!114 &1021275472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021275466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ce6872482d33d47ae8adde40501695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1023468231 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
@@ -9127,8 +9459,8 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 581391691}
-  - {fileID: 1021275467}
   - {fileID: 482644302}
+  - {fileID: 1021275467}
   m_Father: {fileID: 1330435438}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12958,7 +13290,7 @@ GameObject:
   - component: {fileID: 1696351710}
   - component: {fileID: 1696351709}
   - component: {fileID: 1696351708}
-  - component: {fileID: 1696351707}
+  - component: {fileID: 1696351711}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -12986,19 +13318,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.89, y: -0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1696351707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696351705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eaf8b05524474d479be53b746725e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: {fileID: 1873602106}
 --- !u!114 &1696351708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13043,13 +13362,97 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1696351707}
-        m_TargetAssemblyTypeName: TextOpenScript, Assembly-CSharp
-        m_MethodName: OpenText
-        m_Mode: 1
+      - m_Target: {fileID: 1696351711}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1873602106}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1696351711}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 448552378}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1696351711}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1725101419}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1696351711}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2123558041}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1696351711}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 998905848}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1696351711}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 482644303}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1696351711}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1783216112}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1696351711}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: ShowText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1873602106}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -13093,6 +13496,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696351705}
   m_CullTransparentMesh: 1
+--- !u!114 &1696351711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696351705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ce6872482d33d47ae8adde40501695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1696554217
 GameObject:
   m_ObjectHideFlags: 0
@@ -13679,7 +14094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1725101418
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13687,17 +14102,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725101417}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0.050000157}
-  m_LocalScale: {x: 0.04277997, y: 0.87097406, z: 1}
+  m_LocalScale: {x: 0.22126547, y: 0.8709741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1655599962}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.59, y: -8}
+  m_AnchoredPosition: {x: 21.953035, y: 31.623184}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725101419
@@ -13753,8 +14168,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13944,7 +14359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1783216111
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13952,17 +14367,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783216110}
-  m_LocalRotation: {x: -0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0.05000066}
-  m_LocalScale: {x: 0.03898154, y: 0.87097406, z: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1.0578021}
+  m_LocalScale: {x: 0.15202689, y: 0.8709741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 638185187}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8800012, y: -7.9999995}
+  m_AnchoredPosition: {x: 5.4320765, y: 31.623251}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783216112
@@ -14019,8 +14434,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14143,7 +14558,7 @@ GameObject:
   - component: {fileID: 1811586343}
   - component: {fileID: 1811586342}
   - component: {fileID: 1811586341}
-  - component: {fileID: 1811586340}
+  - component: {fileID: 1811586344}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -14171,19 +14586,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.2799995, y: 0.1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1811586340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1811586338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eaf8b05524474d479be53b746725e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: {fileID: 2123558041}
 --- !u!114 &1811586341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14228,13 +14630,97 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1811586340}
-        m_TargetAssemblyTypeName: TextOpenScript, Assembly-CSharp
-        m_MethodName: OpenText
-        m_Mode: 1
+      - m_Target: {fileID: 1811586344}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1873602106}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811586344}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 448552378}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811586344}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1725101419}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811586344}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2123558041}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811586344}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 998905848}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811586344}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 482644303}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811586344}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1783216112}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811586344}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: ShowText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2123558041}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14278,6 +14764,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811586338}
   m_CullTransparentMesh: 1
+--- !u!114 &1811586344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811586338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ce6872482d33d47ae8adde40501695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1845483490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14357,7 +14855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1873602105
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14367,7 +14865,7 @@ RectTransform:
   m_GameObject: {fileID: 1873602104}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0.050000157}
-  m_LocalScale: {x: 0.04277997, y: 0.8709741, z: 1}
+  m_LocalScale: {x: 0.22126547, y: 0.8709741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 658446477}
@@ -14375,7 +14873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.58, y: -8}
+  m_AnchoredPosition: {x: -8.540213, y: 31.623184}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873602106
@@ -14430,10 +14928,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 7
+  m_fontSizeBase: 7
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 10
   m_fontSizeMax: 15
   m_fontStyle: 0
@@ -15511,7 +16009,7 @@ GameObject:
   - component: {fileID: 1934380194}
   - component: {fileID: 1934380193}
   - component: {fileID: 1934380192}
-  - component: {fileID: 1934380191}
+  - component: {fileID: 1934380195}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -15539,19 +16037,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.018856, y: -0.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1934380191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934380189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eaf8b05524474d479be53b746725e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: {fileID: 1783216112}
 --- !u!114 &1934380192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15596,13 +16081,97 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1934380191}
-        m_TargetAssemblyTypeName: TextOpenScript, Assembly-CSharp
-        m_MethodName: OpenText
-        m_Mode: 1
+      - m_Target: {fileID: 1934380195}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1873602106}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1934380195}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 448552378}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1934380195}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1725101419}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1934380195}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2123558041}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1934380195}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 998905848}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1934380195}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 482644303}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1934380195}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: AddText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1783216112}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1934380195}
+        m_TargetAssemblyTypeName: DisplayText, Assembly-CSharp
+        m_MethodName: ShowText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1783216112}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -15646,6 +16215,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934380189}
   m_CullTransparentMesh: 1
+--- !u!114 &1934380195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934380189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ce6872482d33d47ae8adde40501695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1969856164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17794,7 +18375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2123558040
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17802,17 +18383,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123558039}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  m_LocalPosition: {x: 0, y: 0, z: 0.04999954}
-  m_LocalScale: {x: 0.03898154, y: 0.87097406, z: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1.0578021}
+  m_LocalScale: {x: 0.15202689, y: 0.8709741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1118597731}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.55, y: -7.7}
+  m_AnchoredPosition: {x: 5.4320765, y: 31.623251}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2123558041
@@ -17868,8 +18449,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
