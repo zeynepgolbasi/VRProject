@@ -2607,6 +2607,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1523454732, guid: 81b76af0503adc246b3bbb53da35a6e7, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523454732, guid: 81b76af0503adc246b3bbb53da35a6e7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7392557696140432564, guid: 81b76af0503adc246b3bbb53da35a6e7, type: 3}
       propertyPath: m_Name
       value: Wall_09_Door_01
@@ -2618,6 +2626,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1346911494, guid: 81b76af0503adc246b3bbb53da35a6e7, type: 3}
   m_PrefabInstance: {fileID: 344344869}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &344344871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176662700, guid: 81b76af0503adc246b3bbb53da35a6e7, type: 3}
+  m_PrefabInstance: {fileID: 344344869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &344344872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344344871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848a68c3f8e5bda44b27b29890b54edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: irem
 --- !u!1 &344454865
 GameObject:
   m_ObjectHideFlags: 0
