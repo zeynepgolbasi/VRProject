@@ -129,23 +129,23 @@ public class MovementScript : MonoBehaviour
         // Dikey hareket (yerçekimi ve zýplama) vektörünü uygula
         charController.Move(playerVelocity * Time.deltaTime);
 
-        CheckAndJumpOverObstacles();
+        //CheckAndJumpOverObstacles();
     }
 
 
-    private void CheckAndJumpOverObstacles()
-    {
-        // Karakterin altýnda bir ray gönder
-        Ray ray = new Ray(transform.position, Vector3.up);
-        RaycastHit hit;
+    //private void CheckAndJumpOverObstacles()
+    //{
+    //    // Karakterin altýnda bir ray gönder
+    //    Ray ray = new Ray(transform.position, Vector3.down);
+    //    RaycastHit hit;
 
-        // Ray engel ile temas etti mi kontrol et
-        if (Physics.Raycast(ray, out hit, 0.1f)) // 0.1f ray uzunluðunu temsil eder, uygun bir deðer ayarlayýn
-        {
-            // Eðer engel varsa, zýpla
-            Jump();
-        }
-    }
+    //    // Ray engel ile temas etti mi kontrol et
+    //    if (Physics.Raycast(ray, out hit, 0.1f)) // 0.1f ray uzunluðunu temsil eder, uygun bir deðer ayarlayýn
+    //    {
+    //        // Eðer engel varsa, zýpla
+    //        Jump();
+    //    }
+    //}
     public void Jump()
     {
         if (isTouchingGround == false)
