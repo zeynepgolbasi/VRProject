@@ -60,6 +60,8 @@
 //        playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
 //    }
 //}
+
+#pragma warning disable 618
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -126,8 +128,24 @@ public class MovementScript : MonoBehaviour
 
         // Dikey hareket (yerçekimi ve zýplama) vektörünü uygula
         charController.Move(playerVelocity * Time.deltaTime);
+
+        CheckAndJumpOverObstacles();
     }
 
+
+    private void CheckAndJumpOverObstacles()
+    {
+        // Karakterin altýnda bir ray gönder
+        Ray ray = new Ray(transform.position, Vector3.up);
+        RaycastHit hit;
+
+        // Ray engel ile temas etti mi kontrol et
+        if (Physics.Raycast(ray, out hit, 0.1f)) // 0.1f ray uzunluðunu temsil eder, uygun bir deðer ayarlayýn
+        {
+            // Eðer engel varsa, zýpla
+            Jump();
+        }
+    }
     public void Jump()
     {
         if (isTouchingGround == false)
@@ -135,6 +153,8 @@ public class MovementScript : MonoBehaviour
             return;
         }
         playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
-    }   
+    }
 }
+
+#pragma warning restore 618
 
