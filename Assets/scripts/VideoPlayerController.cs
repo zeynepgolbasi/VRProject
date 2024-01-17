@@ -21,6 +21,20 @@ public class VideoPlayerController : MonoBehaviour
         rawImage.gameObject.SetActive(false);
     }
 
+    public void PlayVideo()
+    {
+        // Videoyu baþlat
+        videoPlayer.Play();
+
+        // Raw Image'ý görünür yap
+        rawImage.gameObject.SetActive(true);
+
+        // Video durumunu güncelle
+        isPlaying = true;
+
+        // Video oynatma iþlemi bittiðinde tetiklenen olaya VideoFinished fonksiyonunu baðlayýn
+        videoPlayer.loopPointReached += VideoFinished;
+    }
     private void Update()
     {
         // Video oynatýlýyorsa ve Raw Image görünürse, videoyu Raw Image'a güncelle
