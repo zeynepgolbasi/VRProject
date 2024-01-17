@@ -4076,7 +4076,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.5512924, y: 31.623184}
+  m_AnchoredPosition: {x: 4.0937433, y: 31.623184}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &448552378
@@ -4099,12 +4099,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Irma\u011F\u0131n bat\u0131 k\u0131y\u0131s\u0131na 200 metre uzakl\u0131kta
-    bir podyum \xFCzerine kuruludur. Frig Tanr\u0131\xE7as\u0131 Meter Steunene'ye
-    adanm\u0131\u015F olan yer alt\u0131 cellas\u0131na inen ve \xE7at\u0131ya ula\u015Fan
-    bir merdiveni bulunmaktad\u0131r. Anadolu'daki en iyi korunagelmi\u015F \u0130on
-    d\xFCzenindeki tap\u0131naklardan biri olan yap\u0131n\u0131n malzemelerinden
-    \xF6zellikle akroterleri ilgi \xE7ekicidir. "
+  m_text: "Aizanoi 1824 y\u0131l\u0131nda Avrupal\u0131 gezginlerce yeniden ke\u015Ffedilmi\u015F,1830-1840\u2019l\u0131
+    y\u0131llarda incelenmi\u015F ve tan\u0131mlanm\u0131\u015Ft\u0131r. 1926 y\u0131l\u0131nda
+    M. Schede ve D. Krencker ba\u015Fkanl\u0131\u011F\u0131nda Alman Arkeoloji Enstit\xFCs\xFC'nce
+    ilk kaz\u0131lar yap\u0131lm\u0131\u015Ft\u0131r. 1970 y\u0131l\u0131ndan bu
+    yana her y\u0131l d\xFCzenli olarak kaz\u0131 \xE7al\u0131\u015Fmalar\u0131 devam
+    etmektedir. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4278,7 +4278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.9362183, y: 28.599518}
+  m_AnchoredPosition: {x: -1.5213225, y: 17.683693}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482644303
@@ -4301,18 +4301,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Aizanoi kenti, antik Frigya'ya ba\u011Fl\u0131 olarak ya\u015Fayan Aizanitis\u2019lerin
-    ana yerle\u015Fim merkeziydi. Kentin y\xFCksek platosu \xFCzerinde bulunan Zeus
-    Tap\u0131na\u011F\u0131'n\u0131n \xE7evresinde yap\u0131lan kaz\u0131larda, M\xD6
-    3 bin y\u0131llar\u0131na ait yerle\u015Fim izlerinin ortaya \xE7\u0131kt\u0131\u011F\u0131
-    g\xF6r\xFClm\xFC\u015Ft\xFCr. Helenistik D\xF6nem'de bu b\xF6lge de\u011Fi\u015Fimli
-    olarak Bergama\u2019ya ve Bithynia\u2019ya ba\u011Fl\u0131 iken M\xD6 133\u2019de
-    Roma egemenli\u011Fine girmi\u015Ftir. Roma imparatorluk d\xF6neminde tah\u0131l
-    ekimi, \u015Farap ve y\xFCn \xFCretimi sayesinde zenginle\u015Fmi\u015F ve \xFCn\xFC
-    b\xF6lge s\u0131n\u0131rlar\u0131n\u0131 a\u015Fm\u0131\u015F olan Aizanoi\u2019de
-    kesin kentle\u015Fme bulgular\u0131na ancak M\xD6 1'nci y\xFCzy\u0131l sonlar\u0131na
-    do\u011Fru rastlanmaktad\u0131r. Yine ilk sikkelerin bu d\xF6nemde bas\u0131ld\u0131\u011F\u0131
-    bilinmektedir."
+  m_text: "Zeus tap\u0131na\u011F\u0131n\u0131n kuzeydo\u011Fusunda, stadiumla ayn\u0131
+    do\u011Frultuda iki katl\u0131 olarak in\u015Fa edilen tiyatro, 15.000 izleyici
+    kapasitelidir. Sahne \xE7ap\u0131 . olan yap\u0131n\u0131n duvarlar\u0131ndaki
+    yaz\u0131tlardan, Zeus tap\u0131na\u011F\u0131 ve 4 numaral\u0131 Roma k\xF6pr\xFCs\xFCnde
+    ad\u0131 ge\xE7en Apileius'un bu kompleksin yap\u0131m\u0131nda da rol oynad\u0131\u011F\u0131
+    anla\u015F\u0131lmaktad\u0131r."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4339,8 +4333,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4808,6 +4802,7 @@ Transform:
   - {fileID: 1696554219}
   - {fileID: 991643310}
   - {fileID: 1534728170}
+  - {fileID: 668106047}
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4929,7 +4924,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1534728169}
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4978,6 +4973,18 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1534728169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 581391692}
+        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
+        m_MethodName: AddAudioSource
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -5492,6 +5499,134 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &668106046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 668106047}
+  - component: {fileID: 668106048}
+  m_Layer: 0
+  m_Name: Sound (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &668106047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668106046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.0523434, y: 2.427381, z: 16.708197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 560791997}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &668106048
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668106046}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c27c79342fa88484a97b6c57ba40ed90, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &693563127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6047,7 +6182,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 482783296}
+          m_ObjectArgument: {fileID: 1218891271}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -6096,6 +6231,18 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1534728169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 767226130}
+        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
+        m_MethodName: AddAudioSource
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7715,14 +7862,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kal\u0131nt\u0131lar aras\u0131nda Anadolu\u2019daki en iyi korunmu\u015F
-    Zeus Tap\u0131na\u011F\u0131, 15 bin ki\u015Fi kapasiteli tiyatro ve tiyatroya
-    biti\u015Fik nizamda yap\u0131lm\u0131\u015F 13 bin 500 ki\u015Filik stadyum,
-    iki hamam, d\xFCnyan\u0131n ilk ticaret borsa binas\u0131, s\xFCtunlu cadde,
-    Koca\xE7ay \xFCzerinde ikisi ayakta kalm\u0131\u015F be\u015F k\xF6pr\xFC, iki
-    agora, gymnasium, Meter Steunene kutsal alan\u0131, nekropoller, antik bir bent,
-    suyollar\u0131, kap\u0131 yap\u0131lar\u0131 bulunmaktad\u0131r. Aizanoi antik
-    kenti Efes, Bergama, Side gibi kentlerle \xE7a\u011Fda\u015Ft\u0131r."
+  m_text: "Aizanoi Antik Kenti K\xFCtahya \xC7avdarhisar il\xE7e merkezinde, K\xFCtahya\u2019ya
+    50 kilometre uzakl\u0131ktad\u0131r. Penkalas (Koca\xE7ay) Irma\u011F\u0131'n\u0131n
+    yukar\u0131 kesiminde tanr\u0131\xE7a Meter Steunene\u2019nin kutsal ma\u011Faras\u0131
+    civar\u0131nda ya\u015Fayan Frigyal\u0131lar'\u0131n \xF6nc\xFCs\xFC olarak antik
+    kaynaklarda ge\xE7en Azan adl\u0131 mitoloji kahraman\u0131n\u0131n, Su Perisi
+    Erato ile efsanevi Kral Arkas'\u0131n birle\u015Fmesinden Aizanoi \u015Fehrinin
+    ortaya \xE7\u0131kt\u0131\u011F\u0131 d\xFC\u015F\xFCn\xFClmektedir."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9608,7 +9754,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 991643309}
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9657,6 +9803,18 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1534728169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1130922661}
+        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
+        m_MethodName: AddAudioSource
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9838,7 +9996,6 @@ GameObject:
   - component: {fileID: 1180051417}
   - component: {fileID: 1180051416}
   - component: {fileID: 1180051415}
-  - component: {fileID: 1180051414}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -9866,19 +10023,6 @@ RectTransform:
   m_AnchoredPosition: {x: 3.65, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1180051414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180051412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eaf8b05524474d479be53b746725e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: {fileID: 0}
 --- !u!114 &1180051415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9952,7 +10096,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 482783296}
+          m_ObjectArgument: {fileID: 1696554218}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -10001,6 +10145,18 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1534728169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1180051415}
+        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
+        m_MethodName: AddAudioSource
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -10415,7 +10571,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 991643309}
+          m_ObjectArgument: {fileID: 1534728169}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -10464,6 +10620,18 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1534728169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1271400732}
+        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
+        m_MethodName: AddAudioSource
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -11741,7 +11909,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1696554218}
+          m_ObjectArgument: {fileID: 991643309}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -11790,6 +11958,18 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1534728169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1513714246}
+        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
+        m_MethodName: AddAudioSource
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -11861,7 +12041,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b7880a888dd50224494e8fb4696e55da, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 10a99f34b63733b44bdec1dc100b4991, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13948,7 +14128,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1218891271}
+          m_ObjectArgument: {fileID: 482783296}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -13997,6 +14177,18 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1534728169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1708427323}
+        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
+        m_MethodName: AddAudioSource
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 668106048}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -14138,7 +14330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.953035, y: 31.623184}
+  m_AnchoredPosition: {x: 18.495483, y: 31.623184}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725101419
@@ -14161,13 +14353,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Aizanoi antik kenti en parlak d\xF6nemini MS 2 y\xFCzy\u0131lda ya\u015Fam\u0131\u015F,
-    b\xFCy\xFCk imar faaliyetleri g\xF6rm\xFC\u015F ve bu d\xF6nemde bir\xE7ok yap\u0131
-    in\u015Fa edilmi\u015Ftir. Erken Bizans D\xF6nemi'nde piskoposluk merkezi iken,
-    7'nci y\xFCzy\u0131ldan itibaren bu \xF6nemini yitirmi\u015Ftir. Tap\u0131nak
-    d\xFCzl\xFC\u011F\xFC Orta \xC7a\u011F'da bir hisara d\xF6n\xFC\u015Ft\xFCr\xFClm\xFC\u015Ft\xFCr.
-    Sel\xE7uklular D\xF6nemi'nde \xC7avdar Tatarlar\u0131 taraf\u0131ndan \xFCs olarak
-    kullan\u0131lmas\u0131ndan dolay\u0131 buraya \xC7avdarhisar ad\u0131 verilmi\u015Ftir."
+  m_text: "Irma\u011F\u0131n bat\u0131 k\u0131y\u0131s\u0131na 200 metre uzakl\u0131kta
+    bir podyum \xFCzerine kuruludur. Frig Tanr\u0131\xE7as\u0131 Meter Steunene'ye
+    adanm\u0131\u015F olan yer alt\u0131 cellas\u0131na inen ve \xE7at\u0131ya ula\u015Fan
+    bir merdiveni bulunmaktad\u0131r. Anadolu'daki en iyi korunagelmi\u015F \u0130on
+    d\xFCzenindeki tap\u0131naklardan biri olan yap\u0131n\u0131n malzemelerinden
+    \xF6zellikle akroterleri ilgi \xE7ekicidir. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14394,8 +14585,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783216110}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 1.0578021}
-  m_LocalScale: {x: 0.15202689, y: 0.8709741, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.0592562}
+  m_LocalScale: {x: 0.15961304, y: 0.8709741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 638185187}
@@ -14403,7 +14594,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.4320765, y: 31.623251}
+  m_AnchoredPosition: {x: 2.6999834, y: 20.70739}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783216112
@@ -14426,14 +14617,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kal\u0131nt\u0131lar aras\u0131nda Anadolu\u2019daki en iyi korunmu\u015F
-    Zeus Tap\u0131na\u011F\u0131, 15 bin ki\u015Fi kapasiteli tiyatro ve tiyatroya
-    biti\u015Fik nizamda yap\u0131lm\u0131\u015F 13 bin 500 ki\u015Filik stadyum,
-    iki hamam, d\xFCnyan\u0131n ilk ticaret borsa binas\u0131, s\xFCtunlu cadde,
-    Koca\xE7ay \xFCzerinde ikisi ayakta kalm\u0131\u015F be\u015F k\xF6pr\xFC, iki
-    agora, gymnasium, Meter Steunene kutsal alan\u0131, nekropoller, antik bir bent,
-    suyollar\u0131, kap\u0131 yap\u0131lar\u0131 bulunmaktad\u0131r. Aizanoi antik
-    kenti Efes, Bergama, Side gibi kentlerle \xE7a\u011Fda\u015Ft\u0131r."
+  m_text: "Aizanoi kenti, antik Frigya'ya ba\u011Fl\u0131 olarak ya\u015Fayan Aizanitis\u2019lerin
+    ana yerle\u015Fim merkeziydi. Kentin y\xFCksek platosu \xFCzerinde bulunan Zeus
+    Tap\u0131na\u011F\u0131'n\u0131n \xE7evresinde yap\u0131lan kaz\u0131larda, M\xD6
+    3 bin y\u0131llar\u0131na ait yerle\u015Fim izlerinin ortaya \xE7\u0131kt\u0131\u011F\u0131
+    g\xF6r\xFClm\xFC\u015Ft\xFCr. Helenistik D\xF6nem'de bu b\xF6lge de\u011Fi\u015Fimli
+    olarak Bergama\u2019ya ve Bithynia\u2019ya ba\u011Fl\u0131 iken M\xD6 133\u2019de
+    Roma egemenli\u011Fine girmi\u015Ftir. Roma imparatorluk d\xF6neminde tah\u0131l
+    ekimi, \u015Farap ve y\xFCn \xFCretimi sayesinde zenginle\u015Fmi\u015F ve \xFCn\xFC
+    b\xF6lge s\u0131n\u0131rlar\u0131n\u0131 a\u015Fm\u0131\u015F olan Aizanoi\u2019de
+    kesin kentle\u015Fme bulgular\u0131na ancak M\xD6 1'nci y\xFCzy\u0131l sonlar\u0131na
+    do\u011Fru rastlanmaktad\u0131r. Yine ilk sikkelerin bu d\xF6nemde bas\u0131ld\u0131\u011F\u0131
+    bilinmektedir."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14460,8 +14655,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
-  m_fontSizeBase: 6
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14899,7 +15094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.540213, y: 31.623184}
+  m_AnchoredPosition: {x: -11.9977865, y: 31.623184}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873602106
@@ -14922,12 +15117,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Irma\u011F\u0131n bat\u0131 k\u0131y\u0131s\u0131na 200 metre uzakl\u0131kta
-    bir podyum \xFCzerine kuruludur. Frig Tanr\u0131\xE7as\u0131 Meter Steunene'ye
-    adanm\u0131\u015F olan yer alt\u0131 cellas\u0131na inen ve \xE7at\u0131ya ula\u015Fan
-    bir merdiveni bulunmaktad\u0131r. Anadolu'daki en iyi korunagelmi\u015F \u0130on
-    d\xFCzenindeki tap\u0131naklardan biri olan yap\u0131n\u0131n malzemelerinden
-    \xF6zellikle akroterleri ilgi \xE7ekicidir. "
+  m_text: "Aizanoi antik kenti en parlak d\xF6nemini MS 2 y\xFCzy\u0131lda ya\u015Fam\u0131\u015F,
+    b\xFCy\xFCk imar faaliyetleri g\xF6rm\xFC\u015F ve bu d\xF6nemde bir\xE7ok yap\u0131
+    in\u015Fa edilmi\u015Ftir. Erken Bizans D\xF6nemi'nde piskoposluk merkezi iken,
+    7'nci y\xFCzy\u0131ldan itibaren bu \xF6nemini yitirmi\u015Ftir. Tap\u0131nak
+    d\xFCzl\xFC\u011F\xFC Orta \xC7a\u011F'da bir hisara d\xF6n\xFC\u015Ft\xFCr\xFClm\xFC\u015Ft\xFCr.
+    Sel\xE7uklular D\xF6nemi'nde \xC7avdar Tatarlar\u0131 taraf\u0131ndan \xFCs olarak
+    kullan\u0131lmas\u0131ndan dolay\u0131 buraya \xC7avdarhisar ad\u0131 verilmi\u015Ftir."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14954,8 +15150,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 7
-  m_fontSizeBase: 7
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 10
@@ -18411,7 +18607,7 @@ RectTransform:
   m_GameObject: {fileID: 2123558039}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 1.0578021}
-  m_LocalScale: {x: 0.15202689, y: 0.8709741, z: 1}
+  m_LocalScale: {x: 0.16992046, y: 0.8709741, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1118597731}
@@ -18442,13 +18638,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Aizanoi antik kenti en parlak d\xF6nemini MS 2 y\xFCzy\u0131lda ya\u015Fam\u0131\u015F,
-    b\xFCy\xFCk imar faaliyetleri g\xF6rm\xFC\u015F ve bu d\xF6nemde bir\xE7ok yap\u0131
-    in\u015Fa edilmi\u015Ftir. Erken Bizans D\xF6nemi'nde piskoposluk merkezi iken,
-    7'nci y\xFCzy\u0131ldan itibaren bu \xF6nemini yitirmi\u015Ftir. Tap\u0131nak
-    d\xFCzl\xFC\u011F\xFC Orta \xC7a\u011F'da bir hisara d\xF6n\xFC\u015Ft\xFCr\xFClm\xFC\u015Ft\xFCr.
-    Sel\xE7uklular D\xF6nemi'nde \xC7avdar Tatarlar\u0131 taraf\u0131ndan \xFCs olarak
-    kullan\u0131lmas\u0131ndan dolay\u0131 buraya \xC7avdarhisar ad\u0131 verilmi\u015Ftir."
+  m_text: "Kal\u0131nt\u0131lar aras\u0131nda Anadolu\u2019daki en iyi korunmu\u015F
+    Zeus Tap\u0131na\u011F\u0131, 15 bin ki\u015Fi kapasiteli tiyatro ve tiyatroya
+    biti\u015Fik nizamda yap\u0131lm\u0131\u015F 13 bin 500 ki\u015Filik stadyum,
+    iki hamam, d\xFCnyan\u0131n ilk ticaret borsa binas\u0131, s\xFCtunlu cadde,
+    Koca\xE7ay \xFCzerinde ikisi ayakta kalm\u0131\u015F be\u015F k\xF6pr\xFC, iki
+    agora, gymnasium, Meter Steunene kutsal alan\u0131, nekropoller, antik bir bent,
+    suyollar\u0131, kap\u0131 yap\u0131lar\u0131 bulunmaktad\u0131r. Aizanoi antik
+    kenti Efes, Bergama, Side gibi kentlerle \xE7a\u011Fda\u015Ft\u0131r."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
