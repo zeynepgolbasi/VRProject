@@ -5,12 +5,11 @@ using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
 
-    // Bu fonksiyon, butona her týklandýðýnda çaðrýlýr.
     public class TextOpenScript : MonoBehaviour
     {
         public TextMeshProUGUI textToShow;
 
-        // Bu fonksiyon, butona her týklandýðýnda çaðrýlýr.
+        
         public void ToggleTextVisibility()
         {
             // Text Mesh Pro öðesinin görünürlük durumunu tersine çevir.

@@ -10,6 +10,6 @@ public class UnitChangeScene : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // SceneManager.LoadScene(sceneName);
-        SceneManager.LoadSceneAsync(sceneName);
+        SceneManager.LoadSceneAsync(sceneName);//sahneyi yükle
     }
 }

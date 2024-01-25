@@ -1,42 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-//using UnityEngine;
-
-//public class PlaySound : MonoBehaviour
-//{
-//    public AudioSource audioSource;
-//    private bool isPaused = false;
-
-//    public void ToggleAudio()
-//    {
-//        if (audioSource != null)
-//        {
-//            // Ses þu anda çalýyorsa ve durdurulmadýysa, durdur
-//            if (audioSource.isPlaying && !isPaused)
-//            {
-//                audioSource.Pause();
-//                isPaused = true;
-//            }
-//            // Ses durdurulduysa, kaldýðý yerden devam et
-//            else if (!audioSource.isPlaying && isPaused)
-//            {
-//                audioSource.UnPause();
-//                isPaused = false;
-//            }
-//            // Ses çalmýyorsa ve durdurulmadýysa, çalmaya baþlat
-//            else if (!audioSource.isPlaying && !isPaused)
-//            {
-//                audioSource.Play();
-//            }
-//        }
-//    }
-//}
 using UnityEngine;
 using System.Collections.Generic;
 
 public class PlaySound : MonoBehaviour
 {
-    // Tüm ses kaynaklarýný tutacak bir liste
+    // Tüm ses kaynaklarýný listede tut
     private List<AudioSource> audioSources = new List<AudioSource>();
     private bool isPaused = false;
 

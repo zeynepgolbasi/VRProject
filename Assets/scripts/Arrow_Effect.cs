@@ -12,7 +12,9 @@ public class Arrow_Effect : MonoBehaviour
 
     void Start()
     {
-        // Baþlangýçta InvokeRepeating fonksiyonunu kullanarak Blink fonksiyonunu çaðýrýn.
+       //blink fonk çaðýr.
+       //0.0f fonksiyonu hemen çaðýr
+       
         InvokeRepeating("Blink", 0.0f, blinkInterval);
     }
 
@@ -26,32 +28,3 @@ public class Arrow_Effect : MonoBehaviour
     }
 }
 
-
-    //public Image targetImage;
-    //public float fadeSpeed = 2.0f; // Görünürlük azaltma hýzý
-
-    //private Color startColor; // Baþlangýçtaki renk deðeri
-
-    //private void Start()
-    //{
-    //    // Baþlangýçta baþlangýç rengini kaydet
-    //    startColor = targetImage.color;
-
-    //    // Baþlangýçta InvokeRepeating fonksiyonunu kullanarak FadeInOut fonksiyonunu çaðýrýn.
-    //    InvokeRepeating("FadeInOut", 0.0f, fadeSpeed);
-    //}
-
-    //private void FadeInOut()
-    //{
-    //    // Image'nin alpha deðerini azalt
-    //    Color currentColor = targetImage.color;
-    //    float newAlpha = Mathf.Clamp01(currentColor.a - 0.1f); // 0.01f, her çaðrýda azaltýlacak miktar
-    //    targetImage.color = new Color(currentColor.r, currentColor.g, currentColor.b, newAlpha);
-
-    //    // Eðer alpha deðeri sýfýra ulaþtýysa, baþa dön
-    //    if (newAlpha <= 0.0f)
-    //    {
-    //        targetImage.color = startColor; // Alpha'yý baþlangýç deðerine getir
-    //    }
-    //}
-//}

@@ -11,10 +11,10 @@ public class VideoPlayerController : MonoBehaviour
 
     private void Start()
     {
-        // Video oynatma iþlemi bittiðinde tetiklenen olaya VideoFinished fonksiyonunu baðlayýn
+        // Video oynatma iþlemi bittiðinde tetiklenen olaya VideoFinished fonksiyonu ekledik
         videoPlayer.loopPointReached += VideoFinished;
 
-        // Video durumu kontrolü için baþlangýç deðerini ayarla
+        // Video durumu baþlangýç deðeri
         isPlaying = false;
 
         // Ýlk baþta Raw Image'ý gizle
@@ -32,7 +32,7 @@ public class VideoPlayerController : MonoBehaviour
         // Video durumunu güncelle
         isPlaying = true;
 
-        // Video oynatma iþlemi bittiðinde tetiklenen olaya VideoFinished fonksiyonunu baðlayýn
+        // Video oynatma iþlemi bittiðinde tetiklenen olaya VideoFinished fonksiyonun ekledik
         videoPlayer.loopPointReached += VideoFinished;
     }
     private void Update()
@@ -46,7 +46,6 @@ public class VideoPlayerController : MonoBehaviour
 
     private void VideoFinished(VideoPlayer vp)
     {
-        // Video oynatma iþlemi bittiðinde bu fonksiyon çaðrýlýr
 
         // Raw Image'ý gizle
         rawImage.gameObject.SetActive(false);
@@ -57,7 +56,6 @@ public class VideoPlayerController : MonoBehaviour
 
     public void TogglePlayPause()
     {
-        // Butona týklama olayýna bu fonksiyonu baðlayabilirsiniz
 
         if (!isPlaying)
         {

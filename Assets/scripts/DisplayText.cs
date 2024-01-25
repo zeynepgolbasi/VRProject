@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class DisplayText : MonoBehaviour
 {
-    private List<TextMeshProUGUI> textMeshProList = new List<TextMeshProUGUI>();
+    private List<TextMeshProUGUI> textMeshProList = new List<TextMeshProUGUI>();//TextMeshProlarý listede tut!
 
     public void AddText(TextMeshProUGUI newText)
     {
@@ -14,7 +14,7 @@ public class DisplayText : MonoBehaviour
         {
             textMeshProList.Add(newText);
         }
-    }
+    }//TextMeshPro ekleme fonksiyonu
     void Start()
     {
         // Baþlangýçta tüm TextMeshPro nesnelerini gizle
@@ -31,7 +31,7 @@ public class DisplayText : MonoBehaviour
             textMeshPro.gameObject.SetActive(false);
         }
 
-        // Belirli bir TextMeshPro nesnesini göster
+        //istenilen TextMeshPro nesnesini göster
         if (targetText != null && textMeshProList.Contains(targetText))
         {
             targetText.gameObject.SetActive(true);

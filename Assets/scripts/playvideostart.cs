@@ -7,7 +7,6 @@ public class playvideostart : MonoBehaviour
     public VideoPlayer videoPlayer;
     public RawImage rawImage;
     private bool isPlaying = false;
-    // Start is called before the first frame update
     public void Start()
     {
 
@@ -15,7 +14,7 @@ public class playvideostart : MonoBehaviour
         PlayVideo();
 
 
-        // Video oynatma iþlemi bittiðinde tetiklenen olaya VideoFinished fonksiyonunu baðlayýn
+        // Video oynatma iþlemi bittiðinde tetiklenen olaya VideoFinished fonksiyonunu baðla
         videoPlayer.loopPointReached += VideoFinished;
     }
     private void Update()
@@ -39,7 +38,6 @@ public class playvideostart : MonoBehaviour
     }
     private void VideoFinished(VideoPlayer vp)
     {
-        // Video oynatma iþlemi bittiðinde bu fonksiyon çaðrýlýr
 
         // Raw Image'ý gizle
         rawImage.gameObject.SetActive(false);

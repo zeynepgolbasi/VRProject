@@ -11,7 +11,7 @@ public class XRChangeScene : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // XR Origin veya VR kullanýcý avatarý ile çarpýþma algýlandý
-        if (collision.gameObject.CompareTag("Player")) // "Player" etiketi XR Origin veya kullanýcý avatarýna atanmalýdýr
+        if (collision.gameObject.CompareTag("Player")) 
         {
             SceneManager.LoadScene(sceneIndexToLoad);
         }

@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class ParticleController : MonoBehaviour
 {
-   public ParticleSystem particleSystemToStart; // Unity Editor üzerinde atanacak
+   public ParticleSystem particleSystemToStart; 
 
     private bool particleSystemStarted = false;
 
    public void Start()
     {
-        // Ýstediðiniz bir yerde bu metodu çaðýrabilirsiniz
         PlayParticleSystem();
     }
 
@@ -25,7 +24,7 @@ public class ParticleController : MonoBehaviour
                 particleSystemToStart.Play();
                 particleSystemStarted = true;
 
-                // Invoke ile belirli bir süre sonra StopParticleSystems metodu çaðrýlýr
+                // Invoke ile belirli bir süre sonra StopParticleSystems metodunun çaðýrdýk
                 Invoke("StopParticleSystems", particleSystemToStart.main.duration);
             }
         }
